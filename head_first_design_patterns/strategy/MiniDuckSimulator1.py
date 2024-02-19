@@ -12,9 +12,9 @@ class MiniDuckSimulator:
         mallard.performFly()
         
         model: Duck = ModelDuck()
-        model.performFly()
-        model.setFlyBehavior(FlyRocketPowered())
-        model.performFly()
+        # model.performFly()
+        # model.setFlyBehavior(FlyRocketPowered())
+        # model.performFly()
 
         
 if __name__ == "__main__":

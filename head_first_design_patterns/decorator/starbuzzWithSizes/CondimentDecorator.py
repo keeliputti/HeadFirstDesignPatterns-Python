@@ -4,7 +4,7 @@ from Beverage import Beverage
 from Size import Size
 
 
-class CondimentDecorator(Beverage):
+class CondimentDecorator(Beverage): #is-a
     beverage: Beverage
     
     @abstractmethod

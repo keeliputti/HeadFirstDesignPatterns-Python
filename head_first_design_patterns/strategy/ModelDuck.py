@@ -5,7 +5,7 @@ from Quack import Quack
 
 class ModelDuck(Duck):
     def __init__(self):
-        self.flyBehavior = FlyNoWay()
+        
         self.quackBehavior = Quack()
         
     def display(self) -> None:
