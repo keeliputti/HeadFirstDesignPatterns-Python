@@ -1,10 +1,8 @@
 class Order:
-
-    def __init__(self):
-        self.items = []
-        self.quantities = []
-        self.prices = []
-        self.status = "open"
+    items = []
+    quantities = []
+    prices = []
+    status = "open"
 
     def add_item(self, name, quantity, price):
         self.items.append(name)
